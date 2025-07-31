@@ -1,0 +1,3 @@
+#!/bin/bash
+
+lsfgx3 /usr/bin/flatpak "$@"
