@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#export MESA_VK_WSI_PRESENT_MODE=immediate # Disable VSync
-export ENABLE_LSFG=1
+export LSFG_LEGACY=1
 export LSFG_MULTIPLIER=2
-export LSFG_PERF_MODE=1
+export LSFG_PERFORMANCE_MODE=1
+export LSFG_EXPERIMENTAL_PRESENT_MODE=fifo
 
 "$@"
